@@ -24,7 +24,7 @@ function multiply(x, y) {
 };
 
 
-function times() {
+function multiple() {
     sum = 1;
     for (i = 0; i <= arguments.length; i++) {
         sum *= i;
@@ -37,6 +37,6 @@ module.exports = {
     add2,
     sum,
     multiply,
-    times
+    multiple
 
 };
